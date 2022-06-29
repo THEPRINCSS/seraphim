@@ -1,5 +1,5 @@
 #include "stdint.h"
 void kfree(void * point)
 {
-    point = 0;
+    point = (void*)0;
 }
